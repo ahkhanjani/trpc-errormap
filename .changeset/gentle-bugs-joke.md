@@ -1,0 +1,5 @@
+---
+"trpc-errormap": patch
+---
+
+Fixes
