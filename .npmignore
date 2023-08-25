@@ -1,7 +1,7 @@
-.changeset
 src
 pnpm-lock.yaml
 tsconfig.json
+.vscode
 .gitignore
 .github
 .changeset
