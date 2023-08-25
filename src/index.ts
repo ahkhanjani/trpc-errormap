@@ -14,7 +14,7 @@ const ERROR_MAP: ErrorMap = {
   429: 'TOO_MANY_REQUESTS',
   499: 'CLIENT_CLOSED_REQUEST',
   500: 'INTERNAL_SERVER_ERROR',
-} as const;
+};
 
 interface ErrorMapOpts {
   customMap?: ErrorMap;
@@ -45,7 +45,7 @@ export function createTrpcErrorMap(
     trpcErrorMap(params[0], {
       customMap: {
         ...ERROR_MAP,
-        ...generalCustomMap,
+        ...(generalCustomMap ?? {}),
         ...(params[1]?.customMap ?? {}),
       },
       defaultError: generalDefaultError ?? params[1]?.defaultError,
