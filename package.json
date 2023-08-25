@@ -1,7 +1,15 @@
 {
   "name": "trpc-errormap",
-  "license": "MIT",
   "version": "0.0.1",
+  "description": "Map regular HTTP status codes to their corresponding tRPC error code.",
+  "private": false,
+  "repository": "https://github.com/ahkhanjani/trpc-errormap",
+  "homepage": "https://github.com/ahkhanjani/trpc-errormap",
+  "author": {
+    "name": "Amir H. Khanjani",
+    "email": "amirh.khanjani@gmail.com"
+  },
+  "license": "MIT",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.dts",
