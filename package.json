@@ -10,6 +10,11 @@
     "email": "amirh.khanjani@gmail.com"
   },
   "license": "MIT",
+  "keywords": [
+    "trpc",
+    "http",
+    "status"
+  ],
   "main": "dist/index.js",
   "module": "dist/index.mjs",
   "types": "dist/index.dts",
